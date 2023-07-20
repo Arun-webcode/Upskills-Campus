@@ -1,0 +1,71 @@
+Create database bankmanagementsystem;
+  // create database
+
+
+
+show databases;
+ // check database that its create or not
+
+
+
+
+use bankmanagementsystem;
+ //when you start you mysql app then everytime to use this database you need to run this query
+
+
+
+
+create table signup(formno varchar(25), name varchar(25), father_name varchar(25), dob varchar(20), gender varchar(15), email varchar(40), marital varchar(20), address varchar(50), city varchar(25), pincode varchar(10), state varchar(25));
+
+ // create signup form
+
+
+create table signuptwo(formno varchar(20), religion varchar(20), category varchar(20), income varchar(20), education varchar(20), occupation varchar(20), pan varchar(20), aadhar varchar(20), seniorcitizen varchar(20), existingaccount varchar(20));
+  // create signuptwo table
+
+
+create table signupthree(formno varchar(20), accountType varchar(40), cardnumber varchar(25), pin varchar(10), facility varchar(100));  // create signupthree table
+
+
+create table login(formno varchar(20), cardnumber varchar(25), pin varchar(10));
+
+   // create login table
+
+
+create table bank(pin varchar(10), date varchar(50), type varchar(20), amount varchar(20));
+
+  // create bank transection table
+
+
+show tables;
+  // it's used to show all created tables
+
+
+select*from signup;
+ // its used to show content of signup table
+
+
+select*from signuptwo;
+   // its used to show content of signuptwo table
+
+
+select*from signupthree;
+
+   // its used to show content of signupthree table
+
+
+select*from login;
+    // its used to show content of login table
+
+
+select*from bank;  // its used to show content of bank table
+
+
+
+
+ALTER TABLE signup CHANGE COLUMN dob dob varchar(20) NOT NULL;
+ // this query is not necessery if you get error then run
+
+
+
+delete  from signup where formno = 5500; // this query is not necessery if you get error or need then run
