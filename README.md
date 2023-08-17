@@ -1,2 +1,5 @@
 # Bank Management System_Arun_USC_UCT
-It is a desktop based application used to manage banking transactions, accounts, mini statements and more functionalities like as ATM. In this project Java core, Java swing, Java awt, sql and Jdbc connectivity and Jar files are used.
+<u>
+<li>The goal of this project is to provide users with a real experience system and interactive UI.
+<li>UI and components are created by Java Swing which has a local database in MySQL. Packages used like Javax, Java awt, swing, Oops concepts some Jdbc, and Netbeans IDE.
+<li>Functionalities available are similar in the ATM-like as deposit, withdrawal, fast cash, mini statement, and password change.
